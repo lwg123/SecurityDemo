@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D12D11171EA9EACE0034DF1A /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D11161EA9EACE0034DF1A /* EncryptionTools.m */; };
+		D12D111B1EA9EAD80034DF1A /* RSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D111A1EA9EAD80034DF1A /* RSACryptor.m */; };
+		D12D111F1EA9EAE20034DF1A /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D111E1EA9EAE20034DF1A /* NSString+Hash.m */; };
+		D18085361EA8827D00A9C73D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D18085351EA8827D00A9C73D /* main.m */; };
+		D18085391EA8827D00A9C73D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D18085381EA8827D00A9C73D /* AppDelegate.m */; };
+		D180853C1EA8827D00A9C73D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D180853B1EA8827D00A9C73D /* ViewController.m */; };
+		D180853F1EA8827D00A9C73D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D180853D1EA8827D00A9C73D /* Main.storyboard */; };
+		D18085411EA8827D00A9C73D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18085401EA8827D00A9C73D /* Assets.xcassets */; };
+		D18085441EA8827D00A9C73D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18085421EA8827D00A9C73D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D12D11151EA9EACE0034DF1A /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
+		D12D11161EA9EACE0034DF1A /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
+		D12D11191EA9EAD80034DF1A /* RSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSACryptor.h; sourceTree = "<group>"; };
+		D12D111A1EA9EAD80034DF1A /* RSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSACryptor.m; sourceTree = "<group>"; };
+		D12D111D1EA9EAE20034DF1A /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		D12D111E1EA9EAE20034DF1A /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		D18085311EA8827D00A9C73D /* 密码学.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "密码学.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18085351EA8827D00A9C73D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D18085371EA8827D00A9C73D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D18085381EA8827D00A9C73D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D180853A1EA8827D00A9C73D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D180853B1EA8827D00A9C73D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D180853E1EA8827D00A9C73D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D18085401EA8827D00A9C73D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D18085431EA8827D00A9C73D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D18085451EA8827D00A9C73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D180852E1EA8827D00A9C73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D12D11141EA9EACE0034DF1A /* Cipher */ = {
+			isa = PBXGroup;
+			children = (
+				D12D11151EA9EACE0034DF1A /* EncryptionTools.h */,
+				D12D11161EA9EACE0034DF1A /* EncryptionTools.m */,
+			);
+			path = Cipher;
+			sourceTree = "<group>";
+		};
+		D12D11181EA9EAD80034DF1A /* Cipher-RSA */ = {
+			isa = PBXGroup;
+			children = (
+				D12D11191EA9EAD80034DF1A /* RSACryptor.h */,
+				D12D111A1EA9EAD80034DF1A /* RSACryptor.m */,
+			);
+			path = "Cipher-RSA";
+			sourceTree = "<group>";
+		};
+		D12D111C1EA9EAE20034DF1A /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				D12D111D1EA9EAE20034DF1A /* NSString+Hash.h */,
+				D12D111E1EA9EAE20034DF1A /* NSString+Hash.m */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		D18085281EA8827C00A9C73D = {
+			isa = PBXGroup;
+			children = (
+				D18085331EA8827D00A9C73D /* 密码学 */,
+				D18085321EA8827D00A9C73D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D18085321EA8827D00A9C73D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D18085311EA8827D00A9C73D /* 密码学.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D18085331EA8827D00A9C73D /* 密码学 */ = {
+			isa = PBXGroup;
+			children = (
+				D12D111C1EA9EAE20034DF1A /* Security */,
+				D12D11181EA9EAD80034DF1A /* Cipher-RSA */,
+				D12D11141EA9EACE0034DF1A /* Cipher */,
+				D18085371EA8827D00A9C73D /* AppDelegate.h */,
+				D18085381EA8827D00A9C73D /* AppDelegate.m */,
+				D180853A1EA8827D00A9C73D /* ViewController.h */,
+				D180853B1EA8827D00A9C73D /* ViewController.m */,
+				D180853D1EA8827D00A9C73D /* Main.storyboard */,
+				D18085401EA8827D00A9C73D /* Assets.xcassets */,
+				D18085421EA8827D00A9C73D /* LaunchScreen.storyboard */,
+				D18085451EA8827D00A9C73D /* Info.plist */,
+				D18085341EA8827D00A9C73D /* Supporting Files */,
+			);
+			path = "密码学";
+			sourceTree = "<group>";
+		};
+		D18085341EA8827D00A9C73D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D18085351EA8827D00A9C73D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D18085301EA8827D00A9C73D /* 密码学 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18085481EA8827D00A9C73D /* Build configuration list for PBXNativeTarget "密码学" */;
+			buildPhases = (
+				D180852D1EA8827D00A9C73D /* Sources */,
+				D180852E1EA8827D00A9C73D /* Frameworks */,
+				D180852F1EA8827D00A9C73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "密码学";
+			productName = "密码学";
+			productReference = D18085311EA8827D00A9C73D /* 密码学.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D18085291EA8827C00A9C73D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = weiguang;
+				TargetAttributes = {
+					D18085301EA8827D00A9C73D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D180852C1EA8827C00A9C73D /* Build configuration list for PBXProject "密码学" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D18085281EA8827C00A9C73D;
+			productRefGroup = D18085321EA8827D00A9C73D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D18085301EA8827D00A9C73D /* 密码学 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D180852F1EA8827D00A9C73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18085441EA8827D00A9C73D /* LaunchScreen.storyboard in Resources */,
+				D18085411EA8827D00A9C73D /* Assets.xcassets in Resources */,
+				D180853F1EA8827D00A9C73D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D180852D1EA8827D00A9C73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12D111F1EA9EAE20034DF1A /* NSString+Hash.m in Sources */,
+				D12D111B1EA9EAD80034DF1A /* RSACryptor.m in Sources */,
+				D180853C1EA8827D00A9C73D /* ViewController.m in Sources */,
+				D12D11171EA9EACE0034DF1A /* EncryptionTools.m in Sources */,
+				D18085391EA8827D00A9C73D /* AppDelegate.m in Sources */,
+				D18085361EA8827D00A9C73D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D180853D1EA8827D00A9C73D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D180853E1EA8827D00A9C73D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D18085421EA8827D00A9C73D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18085431EA8827D00A9C73D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D18085461EA8827D00A9C73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D18085471EA8827D00A9C73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D18085491EA8827D00A9C73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "密码学/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "changhong.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D180854A1EA8827D00A9C73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "密码学/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "changhong.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D180852C1EA8827C00A9C73D /* Build configuration list for PBXProject "密码学" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18085461EA8827D00A9C73D /* Debug */,
+				D18085471EA8827D00A9C73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18085481EA8827D00A9C73D /* Build configuration list for PBXNativeTarget "密码学" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18085491EA8827D00A9C73D /* Debug */,
+				D180854A1EA8827D00A9C73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D18085291EA8827C00A9C73D /* Project object */;
+}
